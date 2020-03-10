@@ -16,7 +16,6 @@ p {
   line-height: 30px;
 }
 
-
 /* Welcome row styles */
 
 .welcome-row {
@@ -37,7 +36,7 @@ p {
 
 .welcome-row > h1 {
   position: absolute;
-  font-size: 120px; /* needs adjusting to viewport */
+  font-size: 120px;
   bottom: 15%;
   left: 60%;
   margin-right: 15%;
@@ -46,14 +45,14 @@ p {
 @media screen and (max-width: 700px) {
   .welcome-row > h1 {
     font-size: 50px;
-    bottom: 30%
+    bottom: 30%;
   }
 }
 
 @media screen and (min-width: 701px) and (max-width: 950px) {
   .welcome-row > h1 {
     font-size: 90px;
-    bottom:20%;
+    bottom: 20%;
   }
 }
 
@@ -102,4 +101,20 @@ p {
   margin-left: 18%;
   margin-right: 18%;
   margin-bottom: 0px;
+}
+
+/* icons */
+.circle {
+  background: #bdffe0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.circle > img {
+  margin-top: 25px;
 }
