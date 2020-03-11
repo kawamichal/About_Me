@@ -12,9 +12,8 @@ h1 {
   font-size: 50px;
 }
 
-
-
-p, ul {
+p,
+ul {
   line-height: 30px;
 }
 
@@ -146,7 +145,7 @@ a:hover {
   text-align: center;
   margin-top: 0px;
   padding-top: 0;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .education-row > h1 {
@@ -157,7 +156,6 @@ a:hover {
   float: left;
   text-align: left;
   padding: 10px;
-  height: 300px;
 }
 
 .left {
@@ -178,9 +176,20 @@ a:hover {
   padding-right: 10%;
 }
 
+.right > ul {
+}
+
 .row:after {
   content: "";
   display: table;
   clear: both;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
+}
+
+.bye-row {
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
