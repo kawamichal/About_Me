@@ -80,13 +80,13 @@ a:hover {
   line-height: 1em;
 }
 
-/* About me row styles */
+/* Introduction row styles */
 
 .about-row {
   background-color: white;
   text-align: center;
   margin-top: 0px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .about-row > h1 {
@@ -99,12 +99,14 @@ a:hover {
   margin-bottom: 0px;
 }
 
+/* My works row */
+
 .works-row {
   background-color: white;
   text-align: center;
   margin-top: 0px;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .works-row > h1 {
@@ -138,13 +140,34 @@ a:hover {
   top: 10px;
 }
 
+/* Stack row */
+
+.stack-row {
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.stack-row > p {
+  width: 60%;
+  margin: 20px auto 30px auto;
+}
+
+.stack-row > img {
+  height: 120px;
+  width: 120px;
+  margin: 20px 60px;
+}
+
 /* Education row */
 
 .education-row {
   background-color: white;
   text-align: center;
   margin-top: 0px;
-  padding-top: 0;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -185,6 +208,18 @@ a:hover {
   clear: both;
   margin-bottom: 40px;
 }
+
+/* Contact row */
+
+.contact-row {
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+/* Goodbye row */
 
 .bye-row {
   background-color: white;
